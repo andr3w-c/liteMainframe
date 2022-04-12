@@ -6,10 +6,10 @@
 
 #About:
 
-#Beacons are placed at doorways/entrances thoughout the living space
-#When the resident passes through a doorway - beacons broadcast a byte corresponding to an entry or exit
+#Peripherals are placed at doorways/entrances thoughout the living space
+#When the resident passes through a doorway - peripherals set a byte characterisitc corresponding to an entry or exit
 
-#This application scans primary BLE advertising channels for beacon data
+#This application recieves the changes characteristic value via BLE indications
 #The app then activates the neccessary lights 
 
 
